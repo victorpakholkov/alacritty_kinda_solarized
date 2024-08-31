@@ -1,0 +1,24 @@
+[window]
+dimensions = { columns = 100, lines = 25 }
+position = { x = 352, y = 198 }
+title = "terminal"
+    
+[font]
+normal = { family = "Consolas", style = "Regular" }
+size = 14
+
+[colors]
+cursor = { text = "#7377c4", cursor = "#eae3ce" }
+selection = { text = "#575ba7", background = "#eee8d5" }
+[colors.primary]
+foreground = "#6c71c4"
+background = "#fdf6e3"  
+
+[cursor]
+style = { shape = "Block", blinking = "On" }
+blink_interval = 500
+blink_timeout = 2
+thickness = 0.30
+
+[mouse]
+hide_when_typing = true
